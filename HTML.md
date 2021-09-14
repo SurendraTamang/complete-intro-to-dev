@@ -4,6 +4,11 @@ Hypertext Markup Language (HTML) is the standard markup language for creating we
 ### Tags
 Tags are the building blocks of HTML it helps to defines the structure of the content. For example the head, body, title, meta, link, script, style, and so on.
 
+### Elements
+This are like instance of the tags. For example, the head element is an instance of the head tag.
+
+p tags with <p> This is element</p>
+
 #### Types of Tags
 * Heading tags
 
@@ -26,3 +31,30 @@ Tags are the building blocks of HTML it helps to defines the structure of the co
 * Image tags
 * Anchor tags
 * Other tags
+
+
+### Attributes
+Attributes are the **properties** of the tags. For example, the href attribute of the anchor tag is the link to the page.
+It is helpful to understand the attributes of the tags.
+
+Example:
+
+        <input type="color">
+Using the attribute type="color" we can specify the type of the input field.
+
+Some attributes are required and some are optional. They may be used in the tag or in the attribute of the tag.
+
+
+#### Class attributes
+This are special type of attributes and can be used in any tag though we don't use it. It allows that tag to be found by your CSS and your JavaScript
+
+
+#### ID attributes
+This is another special type of attributes and it is used to find the tag. It is helpful to find the tag in the DOM. It is used only one time in the tags so some time it is useful to use it.
+
+
+##### Tips for naming class and id attributes
+* Use lowercase letters
+* Use underscore (-) to separate words(make sense) called kebal case. ex: my-class-name
+ex: red-button
+* Name it what id does so it will be easy to understand
