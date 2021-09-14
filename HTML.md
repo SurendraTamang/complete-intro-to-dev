@@ -58,3 +58,17 @@ This is another special type of attributes and it is used to find the tag. It is
 * Use underscore (-) to separate words(make sense) called kebal case. ex: my-class-name
 ex: red-button
 * Name it what id does so it will be easy to understand
+
+
+### Structure of HTML
+* Head
+    * Title - <title></title> - Title of the page
+    * Meta - <meta></meta> - SEO
+    * Link - <link></link> - Linking Libraries
+    * Script - <script></script> --> For JS
+    * Style - <style></style> --> For CSS
+* Body
+    * Header
+    * Content
+    * Footer
+    
