@@ -30,6 +30,8 @@ p tags with <p> This is element</p>
 * Table tags
 * Image tags
 * Anchor tags
+    - Internal Link
+    - External Link
 * Other tags
 
 
